@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>«Уголёк» — кофейня в историческом центре</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="hero__overlay"></div>
+  <img src="images/hero.jpg" alt="Интерьер кофейни «Уголёк»" class="hero__bg">
+  <div class="hero__content">
+    <h1 class="hero__title">Уголёк</h1>
+    <p class="hero__tagline">Тёплый уголок в самом сердце старого города</p>
+    <a href="#menu" class="btn btn--primary scroll-to-menu">Посмотреть меню</a>
+  </div>
+</header>
+
+<section class="about fade-in" id="about">
+  <div class="container about__grid">
+    <img src="images/about.jpg" alt="Интерьер кофейни" class="about__img">
+    <div class="about__text">
+      <h2>О нас</h2>
+      <p>«Уголёк» открылся три года назад в отреставрированном купеческом доме XIX века, в самом сердце исторического центра. Толстые кирпичные стены, деревянные балки под потолком и запах свежемолотого кофе — вот что встречает наших гостей с порога.</p>
+      <p>Мы верим, что хорошая кофейня — это не просто напитки, а место, где хочется задержаться. Поэтому у нас всегда есть свежая выпечка, удобные кресла у окна и плейлист, под который приятно думать или болтать с друзьями.</p>
+      <p>Заходите — здесь всегда найдётся свободный столик и тёплая чашка чего-нибудь вкусного.</p>
+    </div>
+  </div>
+</section>
+
+<section class="menu fade-in" id="menu">
+  <div class="container">
+    <h2>Меню</h2>
+    <div class="menu__grid">
+      <article class="menu__card">
+        <span class="menu__icon">☕</span>
+        <h3>Эспрессо</h3>
+        <p class="menu__price">150 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">☕</span>
+        <h3>Капучино</h3>
+        <p class="menu__price">220 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">☕</span>
+        <h3>Флэт уайт</h3>
+        <p class="menu__price">240 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">☕</span>
+        <h3>Раф</h3>
+        <p class="menu__price">280 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">🍫</span>
+        <h3>Какао</h3>
+        <p class="menu__price">210 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">🥐</span>
+        <h3>Круассан</h3>
+        <p class="menu__price">180 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">🍰</span>
+        <h3>Чизкейк</h3>
+        <p class="menu__price">320 ₽</p>
+      </article>
+      <article class="menu__card">
+        <span class="menu__icon">🍫</span>
+        <h3>Шоколадный брауни</h3>
+        <p class="menu__price">250 ₽</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="gallery fade-in" id="gallery">
+  <div class="container">
+    <h2>Галерея</h2>
+    <div class="gallery__grid">
+      <img src="images/gallery-1.jpg" alt="Интерьер кофейни" loading="lazy">
+      <img src="images/gallery-2.jpg" alt="Зал кофейни" loading="lazy">
+      <img src="images/gallery-3.jpg" alt="Латте-арт" loading="lazy">
+      <img src="images/gallery-4.jpg" alt="Чашка кофе" loading="lazy">
+      <img src="images/gallery-5.jpg" alt="Выпечка" loading="lazy">
+      <img src="images/gallery-6.jpg" alt="Круассаны" loading="lazy">
+      <img src="images/gallery-7.jpg" alt="Кофе с рисунком" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="hours fade-in" id="hours">
+  <div class="container hours__grid">
+    <div class="hours__text">
+      <h2>Часы работы и адрес</h2>
+      <p><strong>Пн–Пт:</strong> 8:00 – 21:00</p>
+      <p><strong>Сб–Вс:</strong> 9:00 – 22:00</p>
+      <p><strong>Адрес:</strong> ул. Кузнечная, 12, старый город</p>
+    </div>
+    <div class="hours__map">
+      <iframe
+        src="about:blank"
+        title="Карта — placeholder для Yandex Maps"
+        class="hours__map-frame"
+        loading="lazy"></iframe>
+      <p class="hours__map-caption">Здесь будет встроенная карта Yandex Maps</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact fade-in" id="contact">
+  <div class="container">
+    <h2>Свяжитесь с нами</h2>
+    <p class="contact__phone">+7 (900) 123-45-67</p>
+    <div class="contact__socials">
+      <a href="#" aria-label="VK" class="social-icon">VK</a>
+      <a href="#" aria-label="Telegram" class="social-icon">TG</a>
+      <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+    </div>
+    <form class="contact__form" id="demo-form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Сообщение" rows="3"></textarea>
+      <button type="submit" class="btn btn--primary">Отправить</button>
+      <p class="contact__form-note">Демо-форма, отправка не выполняется.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 «Уголёк». Все права защищены.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
