@@ -37,42 +37,42 @@
     <h2>Меню</h2>
     <div class="menu__grid">
       <article class="menu__card">
-        <span class="menu__icon">☕</span>
+        <img src="images/menu-espresso.jpg" alt="Эспрессо" class="menu__photo" loading="lazy">
         <h3>Эспрессо</h3>
         <p class="menu__price">150 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">☕</span>
+        <img src="images/menu-cappuccino.jpg" alt="Капучино" class="menu__photo" loading="lazy">
         <h3>Капучино</h3>
         <p class="menu__price">220 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">☕</span>
+        <img src="images/menu-flatwhite.jpg" alt="Флэт уайт" class="menu__photo" loading="lazy">
         <h3>Флэт уайт</h3>
         <p class="menu__price">240 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">☕</span>
+        <img src="images/menu-raf.jpg" alt="Раф" class="menu__photo" loading="lazy">
         <h3>Раф</h3>
         <p class="menu__price">280 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">🍫</span>
+        <img src="images/menu-cocoa.jpg" alt="Какао" class="menu__photo" loading="lazy">
         <h3>Какао</h3>
         <p class="menu__price">210 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">🥐</span>
+        <img src="images/menu-croissant.jpg" alt="Круассан" class="menu__photo" loading="lazy">
         <h3>Круассан</h3>
         <p class="menu__price">180 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">🍰</span>
+        <img src="images/menu-cheesecake.jpg" alt="Чизкейк" class="menu__photo" loading="lazy">
         <h3>Чизкейк</h3>
         <p class="menu__price">320 ₽</p>
       </article>
       <article class="menu__card">
-        <span class="menu__icon">🍫</span>
+        <img src="images/menu-brownie.jpg" alt="Шоколадный брауни" class="menu__photo" loading="lazy">
         <h3>Шоколадный брауни</h3>
         <p class="menu__price">250 ₽</p>
       </article>
@@ -91,6 +91,7 @@
       <img src="images/gallery-5.jpg" alt="Выпечка" loading="lazy">
       <img src="images/gallery-6.jpg" alt="Круассаны" loading="lazy">
       <img src="images/gallery-7.jpg" alt="Кофе с рисунком" loading="lazy">
+      <img src="images/gallery-8.jpg" alt="Бариста готовит кофе" loading="lazy">
     </div>
   </div>
 </section>
@@ -119,9 +120,23 @@
     <h2>Свяжитесь с нами</h2>
     <p class="contact__phone">+7 (900) 123-45-67</p>
     <div class="contact__socials">
-      <a href="#" aria-label="VK" class="social-icon">VK</a>
-      <a href="#" aria-label="Telegram" class="social-icon">TG</a>
-      <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+      <a href="#" aria-label="VK" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+          <path d="M13.9 17.4c-4.8 0-7.6-3.3-7.7-8.7h2.5c.1 3.8 1.7 5.5 3.1 5.8V8.7h2.4v3.4c1.3-.1 2.7-1.6 3.2-3.4h2.3c-.4 2.2-2 3.9-3.1 4.6 1.1.6 2.9 2.1 3.6 4.1h-2.6c-.5-1.7-1.8-3-3.4-3.2v3.2z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Telegram" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+          <path d="M21.5 4.5 2.7 11.9c-1 .4-1 1 0 1.4l4.7 1.5 1.8 5.6c.2.6.6.7 1 .3l2.6-2.4 4.6 3.4c.6.4 1.1.2 1.3-.5l3.3-15.4c.2-.8-.3-1.2-1-.9zM8.6 14.3 18 8.4c.3-.2.6.1.3.3l-7.6 6.9-.3 3.3-1.5-4.6z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
     </div>
     <form class="contact__form" id="demo-form">
       <input type="text" placeholder="Ваше имя" required>
